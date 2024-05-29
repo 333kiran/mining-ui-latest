@@ -1,0 +1,183 @@
+.container {
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color: chocolate;
+    
+}
+
+.first-section {
+    width:100%;
+    height:90vh;
+    background: linear-gradient(to bottom ,rgb(25, 57, 126),rgb(15, 15, 50));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:space-around; */
+    margin: 0;
+    padding: 0;
+}
+
+.top-heading {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 1000;
+    margin-top: 5rem;
+    padding: 0;
+}
+
+.second-div {
+    
+    margin-top: 1.8rem;
+    margin-bottom: 3rem;
+    padding: 0;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.text-1 {
+    color:rgb(7, 195, 70);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+.main-content {
+    width:53%;
+    height:10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 20px; */
+    padding: 0;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.count {
+    font-size: 3rem;
+    color:rgb(7, 195, 70);
+    font-weight: 950;
+   margin: 0;
+   padding: 0;
+}
+
+.step-text {
+    color: #fff;
+    font-weight: 950;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+.step-para {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.btn-box {
+    margin-top: 4rem;
+}
+
+.second-section {
+    width: 100%;
+    height:140vh;
+    background-color: rgb(14, 36, 64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.faqHeading {
+    width:45%;
+    color:#fff;
+    font-weight: 1000;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.faq-question {
+    font-size: 1.2rem; /* Larger font size */
+    color:rgb(24, 237, 67);
+    font-weight: bolder;
+    /* opacity: 0.7; */
+  }
+
+  faq-panel {
+    border: none; /* Remove panel border */
+    border-bottom: 1px solid #576a77; /* Show border-bottom */
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .additional-info{
+    width:45%;
+    color:#fff;
+    text-align: left;
+    padding: 1px 40px;
+  }
+
+  .text2 {
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+   margin-top: 50px;
+    margin-bottom: 0;
+    opacity: 1;
+  }
+
+  .ul-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    opacity: 0.8;
+  }
+
+.third-section{
+    width:100%;
+    height:35vh;
+    /* background: linear-gradient(to bottom, #0c1e83, #021b33); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top ,rgb(6, 6, 43),rgb(17, 38, 84));
+
+}
+
+.heading {
+    color: #fff;
+    font-weight: 1000;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.btn {
+    width:11%;
+    height:25%;
+    background-color: rgb(7, 195, 70);
+    border:none;
+    border-radius: 1px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.mining-btn{
+    background-color: rgb(8, 220, 79);
+    color: #000;
+   padding: 3vmin 3vmax;
+   border: none;
+   outline: none;
+   font-weight: bold;
+   font-size: 1.1rem;
+   border-radius: 3px;
+  }

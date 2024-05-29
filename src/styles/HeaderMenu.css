@@ -1,0 +1,24 @@
+.dropdown-menu .icon-box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(2, 49, 80);
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu .icon-box svg {
+    color:white;
+    font-size: 20px;
+  }
+  
+  .dropdown-menu .icon-box.hammer {
+    background-color:rgb(7, 195, 70);
+  }
+  
+  .dropdown-menu .icon-box.user {
+    background-color: rgb(7, 195, 70);
+  }
+  

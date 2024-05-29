@@ -1,0 +1,17 @@
+/* Layout.css */
+
+.layout {
+   width:100vw;
+  }
+  
+  .header {
+    height: 80px;
+    background: #001529; /* Ant Design default header background */
+  }
+  
+ 
+  .content {
+    width:100%;
+    height:100%;
+  }
+  

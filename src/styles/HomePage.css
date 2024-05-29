@@ -1,0 +1,220 @@
+.home-container {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+  }
+  
+  .video-bg {
+    position: relative;
+    width: 100%;
+    height: 93vh;
+  }
+  
+  .video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to top, rgba(0, 0, 255, 0.5), transparent); */
+    background: linear-gradient(to top, #030e1b, transparent);
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .sub-heading-grey {
+    color: #999;
+    font-size: 1.2rem;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  .start-mining-button {
+    background-color: rgb(8, 220, 79);
+    color:black;
+    font-size: 24px;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .mining-details {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    Width:60%;
+    height:30%;
+    background-color: rgba(6, 9, 37, 0.9);
+    border-radius: 20px;
+    
+  }
+  
+  .details {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .detail-item {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .divider {
+    border-left: 1px solid #fff;
+    height: 100%;
+    margin: 0 20px;
+  }
+  
+  .mining-workflow {
+    width:100%;
+    height:50vh;
+    background-color: #03122b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  /* CSS code */
+.mining-workflow {
+    /* Add margin top as needed */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
+  
+  .workflow-count {
+    width:33%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: green; */
+    border: 1px solid rgb(8, 220, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .workflow-content {
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .faq-section {
+    width:100%;
+    height:90vh;
+    background-color: #041e3b;
+    display:flex;
+flex-direction: column;   
+align-items: center;
+  }
+
+  .faq-heading {
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .faq-container {
+    width:40%;
+  }
+
+  .faq-question {
+    font-size: 1.5rem; /* Larger font size */
+    color:blue;
+    opacity: 0.7;
+  }
+  
+  .faq-panel {
+    border: none; /* Remove panel border */
+    border-bottom: 1px solid #576a77; /* Show border-bottom */
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .faq-answer {
+    color:white;
+    opacity: 0.7;
+  }
+  .mining-box {
+    width:100%;
+    height:48vh;
+    background: linear-gradient(to bottom, #0c1e83, #021b33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-box{
+    text-align: center;
+    width:70%;
+    padding: 0;
+  }
+
+  .text1 {
+    color:#fff;
+    opacity: 0.9;
+    font-size: 3.5rem;
+    font-weight: 1000;
+   margin-bottom: 0;
+   padding: 0;
+  }
+  .text2{
+    color:white;
+    font-size: 1.5rem;
+    opacity:0.5;
+  }
+
+  .buttob-box {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .mining-btn{
+    background-color: rgb(8, 220, 79);
+    color: #000;
+   padding: 3vmin 3vmax;
+   border: none;
+   outline: none;
+   font-weight: bold;
+   font-size: 1.1rem;
+   border-radius: 3px;
+  }
